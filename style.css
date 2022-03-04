@@ -1,0 +1,366 @@
+                body {
+                    margin: auto;
+                    background-color: #008080;
+                }
+                
+                nav {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: black;
+                    border-bottom: 6px solid rgb(100, 98, 98);
+                }
+                
+                nav h1 {
+                    color: white;
+                    font-size: 30px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                
+                a {
+                    color: white;
+                    font-size: 20px;
+                    font-family: 'Courier New', Courier, monospace;
+                    text-decoration: none;
+                    border-bottom: 1px solid white;
+                    margin-bottom: 10px;
+                    margin-left: 8px;
+                }
+                
+                a:hover {
+                    color: red;
+                    background-color: white;
+                    text-decoration: none;
+                    border-radius: 10px;
+                    font-size: 30px;
+                    padding: 5px;
+                }
+                
+                div.menu {
+                    margin-top: 5px;
+                    margin-left: 300px;
+                }
+                
+                header {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4Opx;
+                    margin-top: 50px;
+                }
+                
+                header h1 {
+                    font-size: 40px;
+                    font-family: 'Times New Roman', Times, serif;
+                    color: white;
+                }
+                
+                header h4 {
+                    margin-top: -30px;
+                    font-size: 20px;
+                    color: white;
+                }
+                
+                div.lala {
+                    border-bottom: 1px solid white;
+                    width: 420px;
+                    margin-top: -25px;
+                    margin-bottom: 25px;
+                }
+                
+                header button {
+                    background-color: white;
+                    padding: 10px 10px;
+                    color: black;
+                    font-size: 20px;
+                    cursor: pointer;
+                    border: none;
+                }
+                
+                section {
+                    margin-top: 60px;
+                    margin-left: 300px;
+                }
+                
+                #conteneur {
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 60px;
+                    margin-bottom: 20px;
+                }
+                
+                div.ferme img {
+                    width: 395px;
+                    height: 295px;
+                }
+                
+                section :hover {
+                    transform: scale(0.95);
+                    transition-delay: 0.3s;
+                    box-shadow: 1px 1px 1px 1px rgb(48, 49, 49);
+                }
+                
+                div.ali {
+                    width: 350px;
+                    height: 300px;
+                    background-color: black;
+                }
+                
+                div.ali h5 {
+                    color: white;
+                    font-size: 30px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    margin-left: 20px;
+                }
+                
+                div.ali p {
+                    color: white;
+                    font-size: 20px;
+                    margin-left: 15px;
+                }
+                
+                footer {
+                    width: auto;
+                    height: 400px;
+                    background-color: black;
+                    border-top: 5px solid#970d0d;
+                    margin-top: 40px;
+                }
+                
+                div.lol {
+                    display: inline-flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    margin-top: 15px;
+                    margin-left: 100px;
+                }
+                
+                div.lol h3 {
+                    color: white;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-size: 25px;
+                    margin-left: 50px;
+                }
+                
+                div.lol p {
+                    color: white;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 15px;
+                    margin-left: 50px;
+                }
+                
+                div.lol ul li {
+                    color: white;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 15px;
+                    margin-left: 50px;
+                }
+                
+                div.lilo p {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: white;
+                    margin-left: 150px;
+                }
+                
+                footer h1 {
+                    color: white;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 30px;
+                    margin-top: 50px;
+                    margin-left: 150px;
+                }
+                
+                div.close {
+                    border-bottom: 1px solid white;
+                    width: 250px;
+                    margin-left: 150px;
+                }
+                
+                @media screen and (max-width:1100px) {
+                    body {
+                        margin: auto;
+                        background-color: greenyellow;
+                    }
+                    nav {
+                        top: 0;
+                        position: 55px;
+                    }
+                    header {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 2Opx;
+                        margin-top: 40px;
+                        margin-left: 10px;
+                    }
+                    #conteneur {
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 200px;
+                    }
+                    section {
+                        margin-top: 40px;
+                        margin-left: 150px;
+                    }
+                    footer {
+                        width: auto;
+                        height: 400px;
+                        background-color: black;
+                        border-top: 5px solid#970d0d;
+                        margin-top: 20px;
+                    }
+                }
+                
+                @media screen and (max-width:950px) {
+                    body {
+                        margin: auto;
+                        background-color: rgb(81, 17, 230);
+                    }
+                    nav {
+                        top: 0;
+                        position: 55px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    div.menu {
+                        margin-bottom: 15px;
+                        margin-left: 20px;
+                    }
+                    header {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding: 2Opx;
+                        margin-top: 40px;
+                        margin-left: 10px;
+                    }
+                    div.ali {
+                        width: 300px;
+                        height: 250px;
+                        background-color: black;
+                    }
+                    div.ferme img {
+                        width: 300px;
+                        height: 260px;
+                    }
+                    #conteneur {
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 100px;
+                    }
+                    section {
+                        margin-top: 20px;
+                        margin-left: 50px;
+                    }
+                    footer {
+                        width: auto;
+                        height: 500px;
+                        background-color: black;
+                        border-top: 5px solid#970d0d;
+                        margin-top: 80px;
+                    }
+                }
+                
+                @media screen and (max-width:730px) {
+                    body {
+                        background-color: rgb(14, 224, 60);
+                    }
+                    nav {
+                        top: 0;
+                        position: 55px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    nav h1 {
+                        color: white;
+                        font-size: 25px;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        margin-bottom: 5px;
+                    }
+                    a {
+                        color: white;
+                        font-size: 20px;
+                        font-family: 'Courier New', Courier, monospace;
+                        text-decoration: none;
+                        border-bottom: 1px solid white;
+                        margin-bottom: 8px;
+                        margin-left: 8px;
+                    }
+                    div.menu {
+                        margin-top: 5px;
+                        margin-left: 20px;
+                    }
+                    header {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 2Opx;
+                        margin-top: 40px;
+                        margin-left: 10px;
+                    }
+                    div.ali {
+                        width: 250px;
+                        height: 250px;
+                        background-color: black;
+                        margin-left: 50px;
+                    }
+                    div.ferme img {
+                        width: 260px;
+                        height: 260px;
+                        margin-left: 50px;
+                    }
+                    div.ali h5 {
+                        color: white;
+                        font-size: 24px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        margin-left: 20px;
+                    }
+                    div.ali p {
+                        color: white;
+                        font-size: 14px;
+                        margin-left: 15px;
+                    }
+                    #conteneur {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    section {
+                        margin-top: 20px;
+                        margin-left: 20px;
+                    }
+                    footer {
+                        width: auto;
+                        height: 700px;
+                        background-color: black;
+                        border-top: 5px solid#970d0d;
+                        margin-top: 90px;
+                    }
+                    div.lol {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        margin-top: 15px;
+                        margin-left: 50px;
+                    }
+                    footer h1 {
+                        color: white;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-size: 50px;
+                        margin-top: 60px;
+                        margin-left: 50px;
+                    }
+                    div.close {
+                        border-bottom: 3px solid white;
+                        width: 100px;
+                        margin-left: 50px;
+                    }
+                    div.lilo p {
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        color: white;
+                        margin-left: 50px;
+                    }
+                }
